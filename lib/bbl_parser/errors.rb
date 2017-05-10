@@ -7,4 +7,7 @@ module BblParser
 
   class InvalidBlockError < InvalidBBLError
   end
+
+  class InvalidLotError < InvalidBBLError
+  end
 end
