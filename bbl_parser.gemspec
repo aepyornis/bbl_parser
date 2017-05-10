@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = BblParser::VERSION
   spec.authors       = ["ziggy"]
   spec.email         = ["ziggy@elephant-bird.net"]
-
+  spec.license       = "GPL-3.0"
   spec.summary       = %q{Borough, Block, Lot? No problem.}
   spec.homepage      = "https://github.com/aepyornis/bbl_parser"
 

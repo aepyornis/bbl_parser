@@ -1,7 +1,7 @@
 module BblParser
   module Utils
     def self.split_bbl(bbl)
-      if /[0-9]{10}/.match(bbl)
+      if /[0-9]{10}/ =~ bbl
         [bbl[0], bbl[1..5], bbl[6..9]].map(&:to_i)
       elsif bbl.scan(/-/).count == 2
         bbl.split('-').map(&:to_i)
